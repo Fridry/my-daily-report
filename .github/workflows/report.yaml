@@ -9,6 +9,7 @@ env:
   EMAIL_USER: ${{ secrets.EMAIL_USER }}
   EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
   EMAIL_USER_RECIPIENT: ${{ secrets.EMAIL_USER_RECIPIENT }}
+  ACCUWEATHER_API_KEY: ${{ secrets.ACCUWEATHER_API_KEY }}
 
 jobs:
   report:
